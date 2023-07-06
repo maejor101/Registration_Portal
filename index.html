@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>prospectus</title>
+</head>
+
+<body>
+      <h1>VARSITY REGISTRATION PORTAL</h1>
+
+      <!--Choose YOUR  Admission Point Score (APS) range-->
+
+      <div id="aps">
+            <label>Choose your APS</label><br>
+            <select id="apScore">
+                  <option></option>
+                  <option value="0">less than 20</option>
+                  <option value="20">20-25</option>
+                  <option value="26">26-30</option>
+                  <option value="30">Greater than 30</option>
+
+            </select>
+      </div>
+
+      <!--Choose YOUR  school leaving subjects -->
+
+      <div id="subjects">
+
+            <input type="checkbox" id="subjects" name="mathemetics" value="Maths">
+            <label for="maths"> Maths</label><br>
+            <input type="checkbox" id="subjects" name="Physics" value="Science">
+            <label for="PHYS"> Sciences</label><br>
+            <input type="checkbox" id="subjects" name="English_FAL" value="English">
+            <label for="ENGFAL"> English FAL</label><br>
+            <input type="checkbox" id="subjects" name="Life_sciences" value="Life Sciences">
+            <label for="LSC"> Life Sciences</label><br><br>
+      </div>
+
+      <!--Check courses button-->
+
+      <button id="checkCourses" onclick="compare()">Check Courses</button>
+
+      <!--Varisty courses that YOU qualify for-->
+
+      <div id="courses">
+            <label>Course that you qualify for:</label><br>
+            <select>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+                  <option></option>
+            </select>
+      </div>
+      <script src="index.js"></script>
+</body>
+
+</html>
